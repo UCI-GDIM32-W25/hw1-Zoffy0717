@@ -35,7 +35,7 @@ public class Player : MonoBehaviour
             _playerTransform.Translate(Vector3.down * _speed * Time.deltaTime);
         }
         PlantSeed();
-        _plantCountUI.UpdateSeeds(_numSeedsPlanted, _numSeeds);
+        _plantCountUI.UpdateSeeds(_numSeeds, _numSeedsPlanted);
     }
 
     public void PlantSeed ()
